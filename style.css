@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Noto+Sans:wght@300;500;600;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main__header {
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    /* margin-top: -10px; */
+    /* font-family: 'Lato', sans-serif;
+font-family: 'Noto Sans', sans-serif; */
+}
+
+.dis__flex{
+    display: flex;
+}
+
+.dis__flex__just{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left__icons {
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.left__icons  i {
+    margin-left: 20px;
+}
+
+.right__icons{
+    color: white;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.main__icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my__name {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 100px;
+    font-family: 'Lato', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+}
+.my__names {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+font-family: 'Nunito', sans-serif;
+}
+
+.section__image{
+    background-image: url("https://wallpaperaccess.com/full/95233.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    margin-top: 80px;
+    height: 140vh;
+    width: 100%;
+}
+
+/* .subscribe__click{
+    opacity: 1.0;
+    z-index: -1;
+} */
+
+.border__box__here{
+    -webkit-box-shadow: 3px 3px 13px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 13px -1px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 13px -1px rgba(0,0,0,0.75);
+}
+
+.image__style {
+    margin: 20px 25px;
+    height: 500px;
+    width: 60vw;
+}
+
+.like__Button {
+    border: 1px solid gray;
+    height: 40px;
+    width: 80px;
+    justify-content: center;
+    margin-left: 20px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.like__Button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.like__Button2 {
+    border: 1px solid gray;
+    background-color: black;
+    height: 40px;
+    width: 100px;
+    justify-content: center;
+    margin-right: 20px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.like__Button2:hover {
+    background-color: rgb(199, 191, 191);
+   cursor: pointer;
+}
+
+.replies{
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: -3px;
+}
+.replies:hover{
+    color: rgb(0, 0, 0);
+
+}
+
+.number__border {
+    background-color: rgb(255, 255, 255);
+    height: 20px;
+    width: 25px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.black__and__white{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.background__hover:hover{
+    background-color: gray;
+}
+
+.title__tag{
+    margin-left: 5px;
+    background-color: #f1f1f1;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    width: 60px;
+}
+.title__tag2{
+    margin-right: 5px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    width: 80px;
+}
+
+.icons__bottom{
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.custom-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 388px;
+    margin: 10px;
+}
+
+.subscribe__click__bottom {
+    background-color: #f44336;
+    margin-left:10px;
+    margin-right: 10px;
+    height: 50px;
+    padding-top: 15px;
+}
+.subscribe__click__bottom:hover {
+    background-color: #e6dddd;
+}
+
+.footer{
+    width: 100%;
+    height: 240px;
+    background-color: #616161;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.back__to__top{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: black;
+    height: 50px;
+    width: 150px;
+    color: white;
+}
+
+.owner__name {
+    margin-top: 50px;
+}
+
+.hidden {
+    display: none;
+}
